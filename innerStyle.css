@@ -198,3 +198,52 @@
     text-decoration-skip-ink: none;
     margin-left: 10px;
 }
+
+.card {
+    width: 269px;
+    height: 219px;
+    top: 1358px;
+    left: 114px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid black;
+}
+
+.key-features {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3 {
+    margin-left: 40px;
+}
+
+.card4,
+.card5 {
+    margin-left: 10px;
+}
+
+
+
+.inner-banner {
+    width: 1, 204px;
+    height: 352px;
+    max-width: 1204px;
+    gap: 8px;
+    border: 1px solid black;
+
+}

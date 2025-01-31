@@ -59,17 +59,22 @@
     left: 7.125rem;
     gap: 0px;
     border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trial {
     position: absolute;
-    width: 90rem;
+    width: 83.5rem;
+    max-width: 90rem;
     height: 32rem;
     top: 116.25rem;
     margin-top: 3rem;
     padding: var(--sectionspacingxl) var(--inset3xl) var(--sectionspacingxl) var(--inset3xl);
     gap: var(--sectionspacinglg);
     border: 1px solid black;
+    padding: 50px;
 }
 
 .testimonial {
