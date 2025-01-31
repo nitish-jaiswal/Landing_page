@@ -1,109 +1,82 @@
 .main-container {
     border: 1px solid black;
     width: 90rem;
-    /* 1440px / 16 */
     height: 332rem;
-    /* 5320px / 16 */
 }
 
 .hirebright {
     border: 1px solid black;
     height: 3rem;
-    /* 48px / 16 */
     width: 12.478rem;
-    /* 199.64px / 16 */
     margin-top: 3.438rem;
-    /* 55px / 16 */
     margin-left: 4.5rem;
-    /* 72px / 16 */
 }
 
 .navbar {
     position: absolute;
     width: 56rem;
-    /* 896px / 16 */
     height: 2.813rem;
-    /* 45px / 16 */
     top: 3.5rem;
-    /* 56px / 16 */
     left: 26.625rem;
-    /* 426px / 16 */
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content-wrapper {
     position: absolute;
     width: 53.75rem;
-    /* 860px / 16 */
     max-width: 53.75rem;
-    /* 860px / 16 */
     height: 19.25rem;
-    /* 308px / 16 */
     top: 13.875rem;
-    /* 222px / 16 */
     left: 18.125rem;
-    /* 290px / 16 */
     display: flex;
-    gap: 2.5rem;
-    /* 40px / 16 */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
     border: 1px solid black;
 }
 
 .screen {
     position: absolute;
     width: 75.25rem;
-    /* 1204px / 16 */
     height: 30rem;
-    /* 480px / 16 */
     top: 38.125rem;
-    /* 610px / 16 */
     left: 7.375rem;
-    /* 118px / 16 */
     border: 1px solid black;
     border-radius: 1.5rem;
-    /* 24px / 16 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
     position: absolute;
     width: 72.8125rem;
-    /* 1165px / 16 */
     height: 43.125rem;
-    /* 690px / 16 */
     top: 73.125rem;
-    /* 1170px / 16 */
     left: 7.125rem;
-    /* 114px / 16 */
     gap: 0px;
     border: 1px solid black;
 }
 
 .trial {
-
     position: absolute;
     width: 90rem;
     height: 32rem;
     top: 116.25rem;
-    /* width: 90rem;
-    /* 1440px / 16 */
-    height: 32rem;
-    /* 512px / 16 */
     margin-top: 3rem;
-    /* Optional: adds space between .box and .trial */
     padding: var(--sectionspacingxl) var(--inset3xl) var(--sectionspacingxl) var(--inset3xl);
     gap: var(--sectionspacinglg);
     border: 1px solid black;
 }
 
-
 .testimonial {
     position: absolute;
     width: 90rem;
-    /* 1440px / 16 */
     height: 56.75rem;
-    /* 908px / 16 */
     top: 143.5rem;
-    /* 2296px / 16 */
     padding: var(--sectionspacing3xl) var(--inset3xl) var(--sectionspacing2xl) var(--inset3xl);
     gap: var(--sectionspacingmd);
     border: 1px solid black;
@@ -111,7 +84,6 @@
 
 .partner {
     position: absolute;
-    /* Changed from relative to absolute */
     width: 90rem;
     height: 20.125rem;
     border: 1px solid black;
@@ -122,7 +94,6 @@
 
 .frame {
     position: absolute;
-    /* Changed from relative to absolute */
     width: 90rem;
     height: 31.25rem;
     border: 1px solid black;
@@ -132,20 +103,16 @@
 
 .Contact {
     position: absolute;
-    /* Add this */
     width: 84.375rem;
     height: 39.1875rem;
     border: 1px solid black;
     gap: 0px;
     top: 253.3125rem;
-    /* Change margin-top to top */
     left: 2.8125rem;
-    /* Add this to center it (90rem - 84.375rem)/2 */
 }
 
 .footer {
     position: absolute;
-    /* Add this */
     width: 90rem;
     height: 32.75rem;
     top: 292.625rem;
