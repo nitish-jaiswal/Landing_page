@@ -1,14 +1,214 @@
-@media (max-width: 2310px) {
+/* Media Queries for Responsive Design */
+
+/* For tablets and smaller desktops (max-width: 1024px) */
+@media (max-width: 1024px) {
     .main-container {
-        width: 80rem;
-        height: 300rem;
+        width: 100%;
+        height: auto;
     }
 
     .hirebright {
-        border: 1px solid black;
-        height: 3rem;
-        width: 12.478rem;
-        margin-top: 3.438rem;
-        margin-left: 4.5rem;
+        margin-left: 20px;
+    }
+
+    .navbar {
+        width: 80%;
+        left: 10%;
+    }
+
+    .content-wrapper {
+        width: 90%;
+        left: 5%;
+    }
+
+    .screen {
+        width: 90%;
+        left: 5%;
+    }
+
+    .box {
+        width: 90%;
+        left: 5%;
+    }
+
+    .trial {
+        width: 90%;
+        left: 5%;
+    }
+
+    .testimonial {
+        width: 90%;
+        left: 5%;
+    }
+
+    .partner {
+        width: 90%;
+        left: 5%;
+    }
+
+    .frame {
+        width: 90%;
+        left: 5%;
+    }
+
+    .Contact {
+        width: 90%;
+        left: 5%;
+    }
+
+    .footer {
+        width: 90%;
+        left: 5%;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+}
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-content {
+        gap: 20px;
+    }
+
+    .content-wrapper {
+        top: 150px;
+    }
+
+    .box2 h1 {
+        font-size: 36px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .test-cards {
+        flex-direction: column;
+    }
+
+    .test-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-up {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-down {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .left-box {
+        width: 100%;
+    }
+
+    .form-area {
+        width: 100%;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .hirebright {
+        margin-left: 10px;
+    }
+
+    .navbar {
+        width: 100%;
+        left: 0;
+    }
+
+    .content-wrapper {
+        top: 100px;
+    }
+
+    .box2 h1 {
+        font-size: 24px;
+    }
+
+    .box4 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box4 button {
+        width: 100%;
+    }
+
+    .video {
+        width: 90%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial {
+        padding: 10px;
+    }
+
+    .test-card {
+        padding: 20px;
+    }
+
+    .footer-inside {
+        margin-left: 20px;
+    }
+
+    .footer-up {
+        gap: 10px;
+    }
+
+    .footer-down {
+        gap: 5px;
+    }
+
+    .a2023 {
+        text-align: center;
+    }
+
+    .items {
+        text-align: center;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
     }
 }

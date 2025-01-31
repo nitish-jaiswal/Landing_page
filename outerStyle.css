@@ -1,47 +1,47 @@
 .main-container {
-    width: 90rem;
-    height: 332rem;
+    width: 1440px;
+    height: 53120px;
 }
 
 .hirebright {
     border: 1px solid black;
-    height: 3rem;
-    width: 12.478rem;
-    margin-top: 3.438rem;
-    margin-left: 4.5rem;
+    height: 48px;
+    width: 199.648px;
+    margin-top: 55.008px;
+    margin-left: 72px;
 }
 
 .navbar {
     position: absolute;
-    width: 56rem;
-    height: 2.813rem;
-    top: 3.5rem;
-    left: 26.625rem;
+    width: 896px;
+    height: 45px;
+    top: 56px;
+    left: 426px;
     display: flex;
     justify-content: space-between;
 }
 
 .content-wrapper {
     position: absolute;
-    width: 53.75rem;
-    max-width: 53.75rem;
-    height: 19.25rem;
-    top: 13.875rem;
-    left: 18.125rem;
+    width: 860px;
+    max-width: 860px;
+    height: 308px;
+    top: 222px;
+    left: 290px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .screen {
     position: absolute;
-    width: 75.25rem;
-    height: 30rem;
-    top: 38.125rem;
-    left: 7.375rem;
-    border-radius: 1.5rem;
+    width: 1204px;
+    height: 480px;
+    top: 610px;
+    left: 118px;
+    border-radius: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,10 +50,10 @@
 
 .box {
     position: absolute;
-    width: 72.8125rem;
-    height: 43.125rem;
-    top: 73.125rem;
-    left: 7.125rem;
+    width: 1165px;
+    height: 690px;
+    top: 1170px;
+    left: 114px;
     gap: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -63,13 +63,11 @@
 
 .trial {
     position: absolute;
-    width: 83.5rem;
-    max-width: 90rem;
-    height: 32rem;
-    top: 116.25rem;
-    margin-top: 3rem;
-    padding: var(--sectionspacingxl) var(--inset3xl) var(--sectionspacingxl) var(--inset3xl);
-    gap: var(--sectionspacinglg);
+    width: 1336px;
+    max-width: 1440px;
+    height: 512px;
+    top: 1860px;
+    margin-top: 48px;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -77,9 +75,9 @@
 
 .testimonial {
     position: absolute;
-    width: 90rem;
-    height: 56.75rem;
-    top: 143.5rem;
+    width: 1440px;
+    height: 908px;
+    top: 2296px;
     padding: var(--sectionspacing3xl) var(--inset3xl) var(--sectionspacing2xl) var(--inset3xl);
     gap: var(--sectionspacingmd);
     display: flex;
@@ -89,20 +87,20 @@
 
 .partner {
     position: absolute;
-    width: 90rem;
-    height: 20.125rem;
+    width: 1440px;
+    height: 322px;
     border: 1px solid black;
-    padding: var(--stack4xl) 2rem var(--sectionspacinglg) 2rem;
+    padding: var(--stack4xl) 32px var(--sectionspacinglg) 32px;
     gap: var(--stackxl);
-    top: 200.25rem;
+    top: 3204px;
 }
 
 .frame {
     position: absolute;
-    width: 90rem;
-    height: 31.25rem;
+    width: 1440px;
+    height: 500px;
     gap: 0px;
-    top: 222.0625rem;
+    top: 3553px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -110,19 +108,18 @@
 
 .Contact {
     position: absolute;
-    width: 84.375rem;
-    height: 39.1875rem;
+    width: 1350px;
+    height: 627px;
     gap: 0px;
-    top: 253.3125rem;
-    left: 2.8125rem;
+    top: 4053px;
+    left: 45px;
 }
 
 .footer {
     position: absolute;
-    width: 90rem;
-    height: 32.75rem;
-    top: 292.625rem;
+    width: 1440px;
+    height: 524px;
+    top: 4682px;
     padding: var(--sectionspacingxl) var(--inset3xl) var(--inset4xl) var(--inset3xl);
-    gap: 4.5rem;
-
+    gap: 72px;
 }
