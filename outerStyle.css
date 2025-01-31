@@ -85,6 +85,9 @@
     padding: var(--sectionspacing3xl) var(--inset3xl) var(--sectionspacing2xl) var(--inset3xl);
     gap: var(--sectionspacingmd);
     border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .partner {
@@ -104,6 +107,9 @@
     border: 1px solid black;
     gap: 0px;
     top: 222.0625rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .Contact {
@@ -124,4 +130,5 @@
     padding: var(--sectionspacingxl) var(--inset3xl) var(--inset4xl) var(--inset3xl);
     gap: 4.5rem;
     border: 1px solid black;
+
 }
