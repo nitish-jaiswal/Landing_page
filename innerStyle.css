@@ -25,6 +25,7 @@
     height: 48px;
     gap: 0px;
     border: 1px solid black;
+    background-image: url('./images/logo.png');
 }
 
 .nav-content {
@@ -66,9 +67,10 @@
     height: 42px;
     padding: var(--insetsm) var(--stackmd);
     border-radius: var(--borderradiusOLD2xl);
-    border-top: 1px solid black;
-    border: 1px solid black;
     text-align: center;
+    border: 0.2px solid black;
+    border-radius: 40px / 100%;
+    /* Makes only the sides curved */
 }
 
 .box2 {
@@ -135,6 +137,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
+}
+
+.box4 button {
+    border-radius: 5px / 10px;
 }
 
 .player {
@@ -197,6 +204,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-left: 10px;
+    color: rgb(0, 98, 255);
 }
 
 .card {
@@ -333,7 +341,6 @@
 }
 
 .grid-item {
-    background-color: #4CAF50;
     /* Light green color */
     color: white;
     display: flex;
@@ -349,6 +356,51 @@
     top: 18px;
     left: 139px;
 
+
+}
+
+.about-hire section .details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.info {
+    flex: 1;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.highlight {
+    width: 120px;
+    height: 4px;
+    background-color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.summary {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.overview {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+}
+
+.graphic {
+    margin-top: 5rem;
 }
 
 .grid-image {
@@ -360,6 +412,7 @@
     gap: 0px;
     opacity: 0.75px;
     margin-top: 80px;
+    background-image: url('./images/Pattern.png');
 }
 
 
@@ -585,3 +638,16 @@ a {
 }
 
 .items span p {}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch {
+    background-color: white;
+    box-shadow: #444;
+    border-radius: 48px;
+}
