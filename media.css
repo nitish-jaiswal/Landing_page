@@ -1,0 +1,14 @@
+@media (max-width: 2310px) {
+    .main-container {
+        width: 80rem;
+        height: 300rem;
+    }
+
+    .hirebright {
+        border: 1px solid black;
+        height: 3rem;
+        width: 12.478rem;
+        margin-top: 3.438rem;
+        margin-left: 4.5rem;
+    }
+}

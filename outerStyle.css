@@ -1,5 +1,4 @@
 .main-container {
-    border: 1px solid black;
     width: 90rem;
     height: 332rem;
 }
@@ -18,7 +17,6 @@
     height: 2.813rem;
     top: 3.5rem;
     left: 26.625rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
@@ -35,7 +33,6 @@
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    border: 1px solid black;
 }
 
 .screen {
@@ -44,7 +41,6 @@
     height: 30rem;
     top: 38.125rem;
     left: 7.375rem;
-    border: 1px solid black;
     border-radius: 1.5rem;
     display: flex;
     justify-content: center;
@@ -59,9 +55,9 @@
     top: 73.125rem;
     left: 7.125rem;
     gap: 0px;
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -74,8 +70,9 @@
     margin-top: 3rem;
     padding: var(--sectionspacingxl) var(--inset3xl) var(--sectionspacingxl) var(--inset3xl);
     gap: var(--sectionspacinglg);
-    border: 1px solid black;
     padding: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .testimonial {
@@ -85,7 +82,6 @@
     top: 143.5rem;
     padding: var(--sectionspacing3xl) var(--inset3xl) var(--sectionspacing2xl) var(--inset3xl);
     gap: var(--sectionspacingmd);
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -105,7 +101,6 @@
     position: absolute;
     width: 90rem;
     height: 31.25rem;
-    border: 1px solid black;
     gap: 0px;
     top: 222.0625rem;
     display: flex;
@@ -117,7 +112,6 @@
     position: absolute;
     width: 84.375rem;
     height: 39.1875rem;
-    border: 1px solid black;
     gap: 0px;
     top: 253.3125rem;
     left: 2.8125rem;
@@ -130,6 +124,5 @@
     top: 292.625rem;
     padding: var(--sectionspacingxl) var(--inset3xl) var(--inset4xl) var(--inset3xl);
     gap: 4.5rem;
-    border: 1px solid black;
 
 }

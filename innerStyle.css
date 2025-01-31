@@ -24,12 +24,10 @@
     width: 51px;
     height: 48px;
     gap: 0px;
-    border: 1px solid black;
     background-image: url('./images/logo.png');
 }
 
 .nav-content {
-    border: 1px solid black;
     width: 561px;
     height: 27px;
     display: flex;
@@ -70,13 +68,11 @@
     text-align: center;
     border: 0.2px solid black;
     border-radius: 40px / 100%;
-    /* Makes only the sides curved */
 }
 
 .box2 {
     width: 860px;
     height: 112px;
-    border: 1px solid black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -93,7 +89,6 @@
 }
 
 .box3 {
-    border: 1px solid black;
     width: 860px;
     height: 26px;
     gap: 8px;
@@ -109,7 +104,6 @@
 }
 
 .box4 {
-    border: 1px solid black;
     width: 415px;
     height: 45px;
     display: flex;
@@ -133,7 +127,6 @@
     padding: var(--insetmd) var(--inset2xl) var(--insetmd) var(--insetmd);
     gap: var(--stackmd);
     border-radius: 48px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -145,7 +138,6 @@
 }
 
 .player {
-    border: 1px solid black;
     height: 60px;
     width: 60px;
 }
@@ -153,7 +145,6 @@
 .watch {
     width: 218px;
     height: 58px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -212,9 +203,6 @@
     height: 219px;
     top: 1358px;
     left: 114px;
-    gap: 0px;
-    opacity: 0px;
-    border: 1px solid black;
 }
 
 .key-features {
@@ -245,6 +233,27 @@
     margin-left: 10px;
 }
 
+.card h3 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.card p {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 0.7;
+}
 
 
 .inner-banner {
@@ -252,14 +261,11 @@
     height: 352px;
     max-width: 1204px;
     gap: 8px;
-    border: 1px solid black;
-
 }
 
 .success {
     width: 800px;
     height: 96px;
-    border: 1px solid black;
     max-width: 800px;
     display: inline-flex;
     flex-direction: column;
@@ -274,7 +280,10 @@
     width: 1, 204px;
     height: 524px;
 
+
 }
+
+
 
 .test-card {
     width: 400px;
@@ -292,7 +301,6 @@
 
 
 .thin {
-    border: 1px solid black;
     width: 1204px;
     height: 26px;
 
@@ -305,7 +313,6 @@
     max-width: 1204px;
     padding: 20px 0px 20px 0px;
     margin-top: 10px;
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -316,7 +323,6 @@
     height: 48px;
     min-width: 187px;
     padding: 12px 0px 12px 0px;
-    border: 1px solid black;
 
 }
 
@@ -336,21 +342,17 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    /* Adjust gap between grid items */
     padding: 20px;
 }
 
 .grid-item {
-    /* Light green color */
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Rounded corners */
 }
 
 .about-hire {
-    border: 1px solid black;
     width: 822px;
     height: 324px;
     top: 18px;
@@ -404,7 +406,6 @@ h1 {
 }
 
 .grid-image {
-    border: 1px solid black;
     width: 519.88px;
     height: 341px;
     top: 47px;
@@ -414,12 +415,6 @@ h1 {
     margin-top: 80px;
     background-image: url('./images/Pattern.png');
 }
-
-
-
-
-
-
 
 .Contact {
     display: flex;
@@ -444,7 +439,6 @@ h1 {
     left: 101px;
     gap: 0px;
     opacity: 0px;
-    border: 1px solid black;
     font-family: Lato;
     font-size: 48px;
     font-weight: 900;
@@ -472,7 +466,6 @@ h1 {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
-    border: 1px solid black;
 }
 
 .form-area {
@@ -537,7 +530,6 @@ textarea {
     outline: none;
 }
 
-/* Change the border color on focus */
 .form-group input:focus,
 textarea:focus {
     border-bottom: 1px solid #3f8bc6;
@@ -566,7 +558,6 @@ textarea:focus {
     width: 1204px;
     height: 404px;
     max-width: 1204px;
-    border: 1px solid black;
     margin-top: 50px;
     margin-left: 100px;
     display: flex;
@@ -575,7 +566,7 @@ textarea:focus {
 }
 
 .footer-up {
-    border: 1px solid black;
+    border-top: 0.5px solid rgb(127, 127, 127);
     width: 1204px;
     height: 343px;
     display: flex;
@@ -584,7 +575,7 @@ textarea:focus {
 }
 
 .footer-down {
-    border: 1px solid black;
+    border-bottom: 0.5px solid rgb(149, 149, 149);
     width: 1204px;
     height: 60px;
     display: flex;
@@ -593,7 +584,6 @@ textarea:focus {
 }
 
 .crd {
-    border: 1px solid black;
     width: 277px;
     height: 111px;
     min-width: 160px;
@@ -607,13 +597,10 @@ textarea:focus {
 
 a {
     text-decoration: none;
-    /* Removes the underline */
     color: inherit;
-    /* Inherits the color from the parent element */
 }
 
 .a2023 {
-    border: 1px solid black;
     width: 906px;
     height: 20px;
     font-family: Inter;
@@ -626,18 +613,23 @@ a {
 
 }
 
-.term {
-    border: 1px solid black;
-}
+.term {}
 
 .items {
-    border: 1px solid black;
     width: 274px;
     height: 18px;
 
 }
 
-.items span p {}
+.inner-banner {
+    width: 1084px;
+    height: 304px;
+    gap: var(--inline4xl);
+    background-image: url('./images/Container.png');
+    border-radius: 20px / 10%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .player {
     display: flex;
@@ -650,4 +642,171 @@ a {
     background-color: white;
     box-shadow: #444;
     border-radius: 48px;
+}
+
+
+
+
+.test-cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.test-card {
+    flex: 1;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.test-card p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.test-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ffd700;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.profile-name {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.profile-title {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+.sub-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.s-c {
+    border: 1px solid black;
+    width: 380px;
+    height: 50px;
+    padding: 8px 18px 8px 8px;
+    gap: 12px;
+    border-radius: 16px 0px 0px 0px;
+}
+
+
+
+
+.sub-container {
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.s-c {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
+    background-color: #86ba5c;
+    border: none !important;
+}
+
+.s-c:hover {
+    transform: translateY(-2px);
+}
+
+.icon {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.icon svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.content {
+    color: white;
+}
+
+.content h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.container {
+    border: none !important;
+}
+
+.partner {
+    border: none !important;
+}
+
+.sub-container {
+    border: none !important;
 }

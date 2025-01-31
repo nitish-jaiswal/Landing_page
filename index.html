@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="outerStyle.css">
     <link rel="stylesheet" href="innerStyle.css">
+    <link rel="stylesheet" href="media.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="hirebright">
+    <div class="main-container" style="border: none;">
+        <div class="hirebright" style="border: none;">
             <div class="im">
             </div>
             <div>
@@ -21,7 +22,7 @@
 
 
         <div class="navbar">
-            <div class="nav-content">
+            <div class=" nav-content">
                 <span>How it works</span>
                 <span>Testimonials</span>
                 <span>About US</span>
@@ -44,7 +45,8 @@
             </div>
             <div class="box4">
                 <button>Explore Opportunities</button>
-                <button>Find Top Talent</button>
+                <button style="background-color: white; border: 0.5px solid black; color: black;">Find Top
+                    Talent</button>
             </div>
         </div>
 
@@ -64,13 +66,50 @@
         </div>
 
         <div class="box">
-            <div class="key-features">Key Features</div>
+            <div style="display: flex;flex-direction: column;">
+                <div class="key-features" style="text-align: center; font-family: Lato;
+                font-size: 48px;
+                font-weight: 900;
+                line-height: 57.6px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                ">Key Features</div>
+                <div style="height: 2.5px; width: 50px; background-color: rgb(3, 154, 3); margin-left: 100px;"></div>
+            </div>
+
             <div class="card-container">
-                <div class="card card1"></div>
-                <div class="card card2"></div>
-                <div class="card card3"></div>
-                <div class="card card4"></div>
-                <div class="card card5"></div>
+                <div class="card card1"
+                    style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="./images/keyfeature1.png" alt="">
+                    <h3>AI Skill Matching</h3>
+                    <p>Our intelligent algorithms connect the right candidate to the right jobs effortlessly.</p>
+                </div>
+                <div class="card card2"
+                    style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="./images/keyfeature2.png" alt="">
+                    <h3>Streamlined Process</h3>
+                    <p>End-to-end recruitment management for both employee and candidate.</p>
+                </div>
+                <div class="card card3"
+                    style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="./images/keyfeature3.png" alt="">
+                    <h3>Skill Assessment</h3>
+                    <p>AI-based interviews and coding tests to validate the candidate's skills more effectively.</p>
+                </div>
+                <div class="card card4"
+                    style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="./images/keyfeature4.png" alt="">
+                    <h3>Flexibility and Convenience</h3>
+                    <p>Job seekers can explore opportunities and take assessments anytime, anywhere.</p>
+                </div>
+                <div class="card card5"
+                    style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="./images/keyfeature5.png" alt="">
+                    <h3>Wide Reach</h3>
+                    <p>Access a vast pool of job and top-tier candidates in one place to fulfill your requirement.
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -79,7 +118,52 @@
 
         <div class="trial">
             <div class="inner-banner">
-                <h1>Trial</h1>
+                <div>
+                    <h2 style="color: white; margin-left: 30px; margin-top: 50px; font-size: 40px;">What are the
+                        benefits
+                        <br>
+                        of using our platform
+                    </h2>
+                    <button style="margin-top: 60px; margin-left: 20px;">Get Started</button>
+                </div>
+                <div class="sub-container">
+                    <div class="s-c" style="margin-top: 0.1px; margin-bottom: 0.1px;">
+                        <div class="icon">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h3>Ensure quality hires with AI-driven skill assessments.</h3>
+                        </div>
+                    </div>
+
+                    <div class="s-c" style="margin-top: 0.1px; margin-bottom: 0.1px;">
+                        <div class="icon">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3z" />
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h3>Recruitment process streamlined with AI</h3>
+                        </div>
+                    </div>
+
+                    <div class="s-c" style="margin-top: 0.1px; margin-bottom: 0.1px;">
+                        <div class="icon">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h3>Get matched with jobs tailored to your skills.</h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -95,11 +179,58 @@
             </div>
 
             <div class=" test-cards">
-                <div class="test-card"></div>
-                <div class="test-card"></div>
-                <div class="test-card"></div>
-            </div>
+                <div class="test-card">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="testimonial-text" style="font-size: 20px;">ncididunt ut labore et dolore magnaLorem ipsum
+                        dolor sit amet,
+                        consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    <div class="profile-section">
+                        <div class="profile-image"></div>
+                        <div class="profile-info">
+                            <p class="profile-name">Nathan D. Hall</p>
+                            <p class="profile-title">Project Lead</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="test-card">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="testimonial-text" style="font-size: 20px;">ncididunt utconsectetur adipiscing elit.Lorem
+                        ipsum dolor sit amet,
+                        consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna Lorem
+                        ipsum ut labore et</p>
+                    <div class="profile-section">
+                        <div class="profile-image"></div>
+                        <div class="profile-info">
+                            <p class="profile-name">Naomi K. Johnson</p>
+                            <p class="profile-title">Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-card">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="testimonial-text" style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Sed do eiusmod
+                        tempor incididunt ut labore et dolore magna Lorem ipsum</p>
+                    <div class="profile-section">
+                        <div class="profile-image"></div>
+                        <div class="profile-info">
+                            <p class="profile-name">Michael O. Lopez</p>
+                            <p class="profile-title">Operations Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="partner">
